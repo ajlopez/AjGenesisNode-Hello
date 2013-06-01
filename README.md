@@ -31,7 +31,7 @@ to generate other hello messages.
 
 ## Versions
 
-- 0.0.1: Under development
+- 0.0.1: Published
 
 ## Contribution
 
