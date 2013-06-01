@@ -11,20 +11,20 @@ module.exports = function (model, args) {
     if (!model.name)
         model.name = 'world';
     
-    var javatemplatename = path.join(__dirname__, 'templates', 'java.tpl');
-    var javatargetename = path.join(buildir, 'Hello.java');
+    var javatemplatename = path.join(__dirname, 'templates', 'java.tpl');
+    var javatargetname = path.join(buildir, 'Hello.java');
     
-    var cstemplatename = path.join(__dirname__, 'templates', 'cs.tpl');
-    var cstargetename = path.join(buildir, 'Hello.cs');
+    var cstemplatename = path.join(__dirname, 'templates', 'cs.tpl');
+    var cstargetname = path.join(buildir, 'Hello.cs');
     
-    var vbtemplatename = path.join(__dirname__, 'templates', 'vb.tpl');
-    var vbtargetename = path.join(buildir, 'Hello.vb');
+    var vbtemplatename = path.join(__dirname, 'templates', 'vb.tpl');
+    var vbtargetname = path.join(buildir, 'Hello.vb');
     
-    var jstemplatename = path.join(__dirname__, 'templates', 'js.tpl');
-    var jstargetename = path.join(buildir, 'hello.js');
+    var jstemplatename = path.join(__dirname, 'templates', 'js.tpl');
+    var jstargetname = path.join(buildir, 'hello.js');
     
-    ajgenesis.fileTransform(javatemplate, javatargetname, model);
-    ajgenesis.fileTransform(cstemplate, cstargetname, model);
-    ajgenesis.fileTransform(vbtemplate, vbtargetname, model);
-    ajgenesis.fileTransform(jstemplate, jstargetname, model);
+    ajgenesis.fileTransform(javatemplatename, javatargetname, model);
+    ajgenesis.fileTransform(cstemplatename, cstargetname, model);
+    ajgenesis.fileTransform(vbtemplatename, vbtargetname, model);
+    ajgenesis.fileTransform(jstemplatename, jstargetname, model);
 }

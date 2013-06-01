@@ -1,6 +1,6 @@
 # AjGenesisNode Hello
 
-AjGenesisNode-Hello tasks and templates.
+AjGenesisNode Hello tasks and templates.
 
 ## Installation
 
