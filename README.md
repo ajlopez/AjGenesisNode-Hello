@@ -4,17 +4,17 @@ AjGenesisNode Hello tasks and templates.
 
 ## Installation
 
-Via npm on Node:
-```
-npm install ajgenesisnode-hello
-```
-
-## Usage
-
 Install [AjGenesis for Node](https://github.com/ajlopez/AjGenesisNode) globally using:
 ```
 npm install -g ajgenesis
 ```
+Then, in a working directory, execute:
+```
+npm install ajgenesisnode-hello
+npm link ajgenesis
+```
+
+## Usage
 
 Execute:
 ```

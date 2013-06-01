@@ -9,7 +9,6 @@
 , "scripts": {
   }
 , "dependencies": {
-    "ajgenesis": "> 0.0.1"
   }
 , "devDependencies": {
   }
