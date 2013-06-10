@@ -1,9 +1,8 @@
 
-var ajgenesis = require('ajgenesis'),
-    fs = require('fs'),
+var fs = require('fs'),
     path = require('path');
 
-module.exports = function (model, args) {
+module.exports = function (model, args, ajgenesis, options) {
     var buildir = (args && args.length) ? args[0] : 'build';
     buildir = path.resolve(buildir);    
     ajgenesis.createDirectory(buildir);
