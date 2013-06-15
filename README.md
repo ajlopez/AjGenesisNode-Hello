@@ -49,6 +49,8 @@ A new folder `ToAdam` is created.
 ## Versions
 
 - 0.0.1: Published
+- 0.0.2: Published
+- 0.0.3: Under development. Module call receives a callback
 
 ## Contribution
 
