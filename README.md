@@ -8,10 +8,6 @@ Install [AjGenesis for Node](https://github.com/ajlopez/AjGenesisNode) globally 
 ```
 npm install -g ajgenesis
 ```
-Install AjGenesisNode-Hello globally:
-```
-npm install ajgenesisnode-hello -g
-```
 
 ## Usage
 
@@ -19,6 +15,7 @@ Execute:
 ```
 ajgenesis hello:generate
 ```
+The first time, the module `ajgenesisnode-hello` will be installed globally via `npm`.
 
 A `build` folder is created, with `Hello.java`, `Hello.vb`, `Hello.cs`, `Hello.js`. An example:
 
@@ -50,7 +47,7 @@ A new folder `ToAdam` is created.
 
 - 0.0.1: Published
 - 0.0.2: Published
-- 0.0.3: Under development. Module call receives a callback
+- 0.0.3: Published. Module call receives a callback
 
 ## Contribution
 
