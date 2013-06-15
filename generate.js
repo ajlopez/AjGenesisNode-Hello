@@ -2,7 +2,7 @@
 var fs = require('fs'),
     path = require('path');
 
-module.exports = function (model, args, ajgenesis, options) {
+module.exports = function (model, args, ajgenesis, cb) {
     var buildir = (args && args.length) ? args[0] : 'build';
     buildir = path.resolve(buildir);    
     ajgenesis.createDirectory(buildir);
@@ -26,4 +26,6 @@ module.exports = function (model, args, ajgenesis, options) {
     ajgenesis.fileTransform(cstemplatename, cstargetname, model);
     ajgenesis.fileTransform(vbtemplatename, vbtargetname, model);
     ajgenesis.fileTransform(jstemplatename, jstargetname, model);
+    
+    cb(null, null);
 }
