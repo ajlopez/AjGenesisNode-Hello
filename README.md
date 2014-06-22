@@ -9,8 +9,7 @@ Install [AjGenesis for Node](https://github.com/ajlopez/AjGenesisNode) globally 
 npm install -g ajgenesis
 npm install -g ajgenesisnode-hello
 ```
-You should use `sudo` in Linux to install globally a module.
-
+On Linux, you should use `sudo` to install a module globally.
 
 ## Usage
 
