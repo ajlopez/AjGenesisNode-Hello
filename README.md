@@ -4,20 +4,22 @@ AjGenesisNode Hello tasks and templates.
 
 ## Installation
 
-Install [AjGenesis for Node](https://github.com/ajlopez/AjGenesisNode) globally using:
+Install [AjGenesis for Node](https://github.com/ajlopez/AjGenesisNode) globally and this Hello module using:
 ```
 npm install -g ajgenesis
+npm install -g ajgenesisnode-hello
 ```
+You should use `sudo` in Linux to install globally a module.
+
 
 ## Usage
 
-Execute:
+In a worker directory, run:
 ```
-ajgenesis hello:generate
+ajgenesis hello:create myhello
 ```
-The first time, the module `ajgenesisnode-hello` will be installed globally via `npm`.
 
-A `build` folder is created, with `Hello.java`, `Hello.vb`, `Hello.cs`, `Hello.js`. An example:
+A `myhello` folder is created, with `Hello.java`, `Hello.vb`, `Hello.cs`, `Hello.js`. An example:
 
 ```java
 
@@ -33,21 +35,16 @@ public class Hello {
 ```
 The message generate is `Hello world`. Alternatively, execute:
 ```
-ajgenesis name=Adam hello:generate
+ajgenesis name=Adam hello:create helloadam
 ```
 to generate other hello message `Hello Adam`.
-
-You can specify the name of the folder to create:
-```
-ajgenesis name=Adam hello:generate ToAdam
-```
-A new folder `ToAdam` is created.
 
 ## Versions
 
 - 0.0.1: Published
 - 0.0.2: Published
 - 0.0.3: Published. Module call receives a callback
+- 0.0.4: No automated install of hello, use explicitly `npm install -g`; `create` instead of `generate`
 
 ## Contribution
 
