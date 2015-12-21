@@ -45,6 +45,7 @@ to generate other hello message `Hello Adam`.
 - 0.0.3: Published. Module call receives a callback
 - 0.0.4: No automated install of hello, use explicitly `npm install -g`; `create` instead of `generate`
 - 0.0.5: Install function
+- 0.0.6: Using ajgenesis.fs in install task
 
 ## Contribution
 

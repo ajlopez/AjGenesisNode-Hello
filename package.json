@@ -1,17 +1,17 @@
 { "name": "ajgenesisnode-hello"
 , "description": "AjGenesis for Node, Hello tasks and template"
 , "keywords": [ "codegeneration", "nodejs", "ajgenesis" ]
-, "version": "0.0.5"
+, "version": "0.0.6"
 , "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
 , "repository": { "type": "git", "url": "git://github.com/ajlopez/AjGenesisNode-Hello.git" }
 , "main": "./index.js"
-, "engines": { "node": ">= 0.6.0 && < 0.11.0" }
+, "engines": { "node": ">= 0.10.0" }
 , "scripts": {
     "test": "simpleunit ./test"
   }
 , "dependencies": {
   }
 , "devDependencies": {
-    "simpleunit": "0.0.6"
+    "simpleunit": "0.0.7"
   }
 }
